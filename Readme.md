@@ -24,7 +24,9 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 3.	Created a Jenkins namespace and created the pod inside this namespace using these manifests.
 4.	Switched context using kubectl config set-context --current --namespace=Jenkins
 
- 
+![image](https://user-images.githubusercontent.com/22639401/191261224-abde7610-889d-4f67-9e8e-a6f1d4057483.png)
+![image](https://user-images.githubusercontent.com/22639401/191261257-bc4b8c58-fba5-440d-ba6d-233a72b947a4.png)
+
  
 
 5.	Created a multi-branch pipeline with github hook, provided Jenkins file from Github Repo
