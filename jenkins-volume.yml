@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume #create persistent volume to store the data
+metadata:
+  name: jenkins
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 4Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/data"

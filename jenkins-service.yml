@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: Service #expose the pod to outside world and slaves
+metadata:
+  name: jenkins
+  labels:
+    app: jenkins
+spec:
+  type: ClusterIP #expose pod inside cluster
+  ports:
+    - name: slave
+      port: 50000
+      protocol: TCP
+    - name: http
+      port: 80
+      targetPort: 8080
+  selector:
+    app: jenkins
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkins-nodeport
+  labels:
+    app: jenkins
+spec:
+  type: NodePort #expose to outside world
+  ports:
+    - name: ui
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: jenkins
