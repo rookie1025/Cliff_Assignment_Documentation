@@ -19,9 +19,9 @@ Approach to the solution:
 
 Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 
-1.	Forked the repo to my github account in this repo. When trying to deploy the app on docker for testing purpose, had some trouble to solve it made changes to 2 lines in the node.js app code  and deployed the app successfully on docker as a test
-2.	Created Minikube Cluster on AWS EC2-Instance using this procedure.
-3.	Created a Jenkins namespace and created the pod inside this namespace using these manifests.
+1.	Forked the repo to my github account in [this](https://github.com/rookie1025/app.git) repo. When trying to deploy the app on docker for testing purpose, had some trouble to solve it made changes to 2 lines in the node.js app code  and deployed the app successfully on docker as a test
+2.	Created Minikube Cluster on AWS EC2-Instance using [this](https://github.com/rookie1025/How_to_minikube_aws_ec2_install.git) procedure.
+3.	Created a Jenkins namespace and created the pod inside this namespace using [these](https://github.com/rookie1025/Cliff_Assignment_Documentation.git) manifests.
 4.	Switched context using kubectl config set-context --current --namespace=Jenkins
 
 ![image](https://user-images.githubusercontent.com/22639401/191261224-abde7610-889d-4f67-9e8e-a6f1d4057483.png)
