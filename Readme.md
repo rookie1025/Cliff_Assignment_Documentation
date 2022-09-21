@@ -29,9 +29,16 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 
  
 
-5.	Created a multi-branch pipeline with github hook, provided Jenkins file from Github Repo 
+5.	Got the Jenkins password from kubectl logs command and logged in to server. Created a multi-branch pipeline with github hook, provided Jenkins file from Github Repo 
 6.	In first stage of the peipeline code is pulled from github along with dockerfile needed to build it.
 7.	In the next stage image is built and pushed into dockerhub repo.
 8.	I am currently working on the deployment of the app using kubernetes agent to deploy the app on host machine as of now running into some issues. Will update the documentation as soon as it gets solved.
 
+Jenkins URL: http://43.205.203.53:31137/ | Username: admin | Password: admin@12345
+App deployment done using [this](https://github.com/rookie1025/deployment.git) file. Please note that I am currently trying to resolve issues with automatic deployment. Currently app is deployed manually post build is done.
+App URL: http://43.205.203.53:32591/
 
+[KubeConfig](https://github.com/rookie1025/Cliff_Assignment_Documentation/blob/main/kube%20config%20file) File
+[JenkinsFIle](https://github.com/rookie1025/app/blob/main/JenkinsFile)
+
+![image](https://user-images.githubusercontent.com/22639401/191565529-41b39083-1cf4-4ba2-9681-0e36c81b7e9f.png)
