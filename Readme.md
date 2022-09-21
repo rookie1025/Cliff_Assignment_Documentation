@@ -37,6 +37,8 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 7.	In the next stage image is built and pushed into dockerhub repo.
 8.	I am currently working on the deployment of the app using kubernetes agent to deploy the app on host machine as of now running into some issues. Will update the documentation as soon as it gets solved.
 
+Pipeline is implemented using Kubernetes Jenkins agent with pod template provided for the container in jenkins file
+
 Jenkins URL: http://43.205.203.53:31137/ | Username: admin | Password: admin@12345
 
 App deployment done using [this](https://github.com/rookie1025/deployment.git) file. Please note that I am currently trying to resolve issues with automatic deployment. Currently app is deployed manually post build is done.
