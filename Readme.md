@@ -43,7 +43,8 @@ App deployment done using [this](https://github.com/rookie1025/deployment.git) f
 
 App URL: http://43.205.203.53:32591/
 
-[KubeConfig](https://github.com/rookie1025/Cliff_Assignment_Documentation/blob/main/kube%20config%20file) File
+[KubeConfig File](https://github.com/rookie1025/Cliff_Assignment_Documentation/blob/main/kube%20config%20file) 
+
 [JenkinsFIle](https://github.com/rookie1025/app/blob/main/JenkinsFile)
 
 ![image](https://user-images.githubusercontent.com/22639401/191565529-41b39083-1cf4-4ba2-9681-0e36c81b7e9f.png)
