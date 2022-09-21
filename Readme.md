@@ -40,6 +40,7 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 Jenkins URL: http://43.205.203.53:31137/ | Username: admin | Password: admin@12345
 
 App deployment done using [this](https://github.com/rookie1025/deployment.git) file. Please note that I am currently trying to resolve issues with automatic deployment. Currently app is deployed manually post build is done.
+
 App URL: http://43.205.203.53:32591/
 
 [KubeConfig](https://github.com/rookie1025/Cliff_Assignment_Documentation/blob/main/kube%20config%20file) File
