@@ -1,6 +1,9 @@
 Cliff.ai Assignment - Documentation
-- Akhil Prakash Karvanje
+
+Akhil Prakash Karvanje
+
 akhilkarvanje@gmail.com
+
 7021404394
 
 Problem Statement: 
@@ -35,6 +38,7 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 8.	I am currently working on the deployment of the app using kubernetes agent to deploy the app on host machine as of now running into some issues. Will update the documentation as soon as it gets solved.
 
 Jenkins URL: http://43.205.203.53:31137/ | Username: admin | Password: admin@12345
+
 App deployment done using [this](https://github.com/rookie1025/deployment.git) file. Please note that I am currently trying to resolve issues with automatic deployment. Currently app is deployed manually post build is done.
 App URL: http://43.205.203.53:32591/
 
