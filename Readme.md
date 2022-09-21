@@ -29,7 +29,7 @@ Tools Used: AWS, Docker, Dockerhub,  Kubernetes, Jenkins.
 
  
 
-5.	Created a multi-branch pipeline with github hook, provided Jenkins file from Github Repo
+5.	Created a multi-branch pipeline with github hook, provided Jenkins file from Github Repo 
 6.	In first stage of the peipeline code is pulled from github along with dockerfile needed to build it.
 7.	In the next stage image is built and pushed into dockerhub repo.
 8.	I am currently working on the deployment of the app using kubernetes agent to deploy the app on host machine as of now running into some issues. Will update the documentation as soon as it gets solved.
