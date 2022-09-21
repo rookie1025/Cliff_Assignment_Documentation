@@ -48,3 +48,5 @@ App URL: http://43.205.203.53:32591/
 [JenkinsFIle](https://github.com/rookie1025/app/blob/main/JenkinsFile)
 
 ![image](https://user-images.githubusercontent.com/22639401/191565529-41b39083-1cf4-4ba2-9681-0e36c81b7e9f.png)
+
+Note: Currently working on Deployment stage and automatic email notifications
